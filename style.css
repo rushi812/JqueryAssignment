@@ -1,0 +1,32 @@
+#table1{
+	width:80%;
+	margin:0 auto;
+}
+h1:after{
+	content:"";
+	height:4px;
+	line-height: 1.1em;
+	width:80px;
+	display: block;
+	background:#333;
+	margin:10px auto;
+}
+.view, .delete{
+	margin:5px;
+}
+thead{
+	background:#333;
+	color:white;
+}
+.checkbox{
+	width:82%;
+	margin:0 auto;
+	border:2px solid #333;
+	/*border-radius: 10px;*/
+	padding:10px;
+}
+.checkbox div{
+	margin-left:40px;
+}
+
+

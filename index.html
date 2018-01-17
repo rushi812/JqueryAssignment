@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Exam 1</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 style="text-align: center">Data Table</h1>
+        <div class="row">
+            <input type="text" class="form-control" id="txtInp" placeholder="search"  style="width: 80%;margin:10px auto">
+        </div>
+        <div class="row checkbox">
+            <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" name="username" id="customCheck1" checked>
+                <label class="custom-control-label" for="customCheck1">Username</label>
+            </div>
+            <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" name="age" id="customCheck2" checked>
+                <label class="custom-control-label" for="customCheck2">Age</label>
+            </div>
+            <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" name="name1" id="customCheck3" checked>
+                <label class="custom-control-label" for="customCheck3">Name</label>
+            </div>
+            <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" name="gender" id="customCheck4" checked>
+                <label class="custom-control-label" for="customCheck4">Gender</label>
+            </div>
+            <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" name="company" id="customCheck5" checked>
+                <label class="custom-control-label" for="customCheck5">Company</label>
+            </div>
+            <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" name="phone" id="customCheck6" checked>
+                <label class="custom-control-label" for="customCheck6">Phone</label>
+            </div>
+            <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" name="view_delete" id="customCheck7" checked>
+                <label class="custom-control-label" for="customCheck7">View/Delete</label>
+            </div>
+        </div>
+        <div class="row">
+
+            <table id="table1" class="table-striped table-bordered" cellpadding="5">
+                <thead>
+                    <tr>
+                        <th class="username" >USERNAME</th>
+                        <th class="age" >AGE</th>
+                        <th class="name1" >NAME</th>
+                        <th class="gender" >GENDER</th>
+                        <th class="company" >COMPANY</th>
+                        <th class="phone" >PHONE</th>
+                        <th class="view_delete" >VIEW/DELETE</th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+    </div>
+    <!-- <p id="para"></p> -->
+    <script src="main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+</body>
+
+</html>
