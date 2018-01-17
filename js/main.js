@@ -1,6 +1,6 @@
 $.ajax({
     type: 'GET',
-    url: 'http://127.0.0.1:8080/data.json',
+    url: '../js/data.json',
     success: function(data) {
         // console.log(data);
         if (data) {
